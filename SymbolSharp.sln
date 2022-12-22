@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0EA2AAF7-10CF-4444-8926-B3CFA37F3983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymbolSharp", "src\SymbolSharp\SymbolSharp.csproj", "{3B730838-0252-46D3-A7B3-72EFE1FAE5ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymbolSharp.Tests", "src\SymbolSharp.Tests\SymbolSharp.Tests.csproj", "{DAA5E5E5-6CAB-481C-875A-256597776BA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B730838-0252-46D3-A7B3-72EFE1FAE5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B730838-0252-46D3-A7B3-72EFE1FAE5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B730838-0252-46D3-A7B3-72EFE1FAE5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B730838-0252-46D3-A7B3-72EFE1FAE5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA5E5E5-6CAB-481C-875A-256597776BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA5E5E5-6CAB-481C-875A-256597776BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA5E5E5-6CAB-481C-875A-256597776BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA5E5E5-6CAB-481C-875A-256597776BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B730838-0252-46D3-A7B3-72EFE1FAE5ED} = {0EA2AAF7-10CF-4444-8926-B3CFA37F3983}
+		{DAA5E5E5-6CAB-481C-875A-256597776BA4} = {0EA2AAF7-10CF-4444-8926-B3CFA37F3983}
 	EndGlobalSection
 EndGlobal
